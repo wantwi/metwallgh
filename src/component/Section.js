@@ -4,7 +4,7 @@ import { TextSection } from "../layout/header/header.styles";
 const Section = () => {
   return (
     <TextSection>
-      <h4>Wellcome</h4>
+      <h3>Welcome!</h3>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever

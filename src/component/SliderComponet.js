@@ -14,7 +14,9 @@ function SliderComponet() {
         <div>
           <img src={Image1} className="slider-image" />
 
-          <p className="legend" style={styles.legend}>Legend 1</p>
+          <p className="legend" style={styles.legend}>
+            a mission to provide sustainable and affordable building solutions
+          </p>
         </div>
         <div>
           <img src={Image2} className="slider-image" />
@@ -32,9 +34,10 @@ function SliderComponet() {
 export default SliderComponet;
 
 const styles = {
-  legend:{
-    bottom:"200px",
-    background:"#8f8482",
-    padding:"50px 15px"
-  }
-}
+  legend: {
+    bottom: "200px",
+    background: "#8f8482",
+    padding: "50px 15px",
+    fontSize: "40px",
+  },
+};

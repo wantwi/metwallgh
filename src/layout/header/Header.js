@@ -8,6 +8,7 @@ import {
 } from "./header.styles";
 import Logo from "../../images/logo.jpg";
 import SliderComponet from "../../component/SliderComponet";
+import SocialComponent from "../../component/socialComponent";
 
 // export const HeaderContaniner = styled.div`
 //   height: 70px;
@@ -27,7 +28,9 @@ function Header() {
         <LogoWrapper>
           <img className="img" src={Logo} />
         </LogoWrapper>
-        <SocialIconsWrapper>Social Media Icons</SocialIconsWrapper>
+        <SocialIconsWrapper>
+          <SocialComponent />
+        </SocialIconsWrapper>
       </HeaderContaniner>
       <NavBar>
         <a>Home</a>
