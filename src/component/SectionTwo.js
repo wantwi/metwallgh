@@ -18,7 +18,7 @@ const SectionTwo = () => {
       <VideoSection>
         {" "}
         <Player>
-          <source src={Vid}  />
+          <source src={Vid} />
         </Player>
       </VideoSection>
     </GridSection>
