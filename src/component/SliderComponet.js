@@ -39,5 +39,6 @@ const styles = {
     background: "#8f8482",
     padding: "50px 15px",
     fontSize: "40px",
+    opacity: 0.6,
   },
 };

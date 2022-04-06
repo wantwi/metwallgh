@@ -14,23 +14,34 @@ code {
 * {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
-.slider-image{
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+div,
+input,
+main,
+section,
+span {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.slider-image {
   height: 500px;
 }
 @media screen and (min-width: 1700px) {
-
   body {
-
     height: 100vh !important;
 
     width: 70% !important;
     margin: 0 auto;
     background-color: #f1f1f1;
-
   }
-  .slider-image{
+  .slider-image {
     height: 50vh;
   }
-
 }

@@ -27,7 +27,7 @@ export const Wrapper = styled.section`
 `;
 
 export const NavBar = styled.div`
-  height: 40px;
+  height: 45px;
   background: #00adef;
   display: flex;
   gap: 40px;
@@ -35,6 +35,7 @@ export const NavBar = styled.div`
   justify-content: center;
   a {
     align-self: center;
+    font-weight: bold;
   }
 `;
 
@@ -58,7 +59,7 @@ export const GridSection = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 39vh;
+  height: 45vh;
   gap: "40px";
   background: #fff;
   @media screen and (min-width: 1700px) {
@@ -76,7 +77,7 @@ export const ServiceSection = styled.div`
 `;
 export const NewsSection = styled.div`
   width: 50%;
-  background: green;
+
   padding: 0 20px;
   p {
     align-self: center;
@@ -87,11 +88,19 @@ export const NewsSection = styled.div`
 export const VideoSection = styled.div`
   width: 35%;
   padding: 0 20px;
-
-  background: blue;
 `;
 
 export const Title = styled.h2`
   font-family: sans;
   margin: 20px 0 20px 0;
+`;
+
+export const SearchWrapper = styled.div`
+  position: relative;
+  input {
+    position: absolute;
+    padding: 3px 5px;
+    top: 10px;
+    left: 100px;
+  }
 `;

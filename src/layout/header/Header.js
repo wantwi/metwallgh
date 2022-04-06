@@ -5,6 +5,7 @@ import {
   LogoWrapper,
   SocialIconsWrapper,
   NavBar,
+  SearchWrapper,
 } from "./header.styles";
 import Logo from "../../images/logo.jpg";
 import SliderComponet from "../../component/SliderComponet";
@@ -38,6 +39,9 @@ function Header() {
         <a>Projects</a>
         <a>Services</a>
         <a>Contact Us</a>
+        <SearchWrapper>
+          <input placeholder="search" />
+        </SearchWrapper>
       </NavBar>
       <SliderComponet />
     </>
