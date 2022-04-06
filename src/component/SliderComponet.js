@@ -20,11 +20,11 @@ function SliderComponet() {
         </div>
         <div>
           <img src={Image2} className="slider-image" />
-          <p className="legend">Legend 2</p>
+          {/* <p className="legend">Legend 2</p> */}
         </div>
         <div>
           <img src={Image3} className="slider-image" />
-          <p className="legend">Legend 3</p>
+          {/* <p className="legend">Legend 3</p> */}
         </div>
       </Carousel>
     </div>

@@ -36,9 +36,9 @@ const SectionTwo = () => {
         </p>
       </NewsSection>
       <VideoSection>
-        <Title>Post Video</Title>
+      <Title>Post Video</Title>
         <Player>
-          <source src={Vid} />
+          <source src={Vid}  />
         </Player>
       </VideoSection>
     </GridSection>

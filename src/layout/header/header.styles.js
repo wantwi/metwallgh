@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../utils/BreakPoints";
 
 export const HeaderContaniner = styled.div`
   height: 80px;
@@ -58,44 +59,39 @@ export const GridSection = styled.div`
   flex-direction: row;
   justify-content: space-between;
   height: 39vh;
-  padding: 20px;
   gap: "40px";
+  background: #fff;
+  @media screen and (min-width: 1700px) {
+    height: 25vh;
+  }
 `;
 
 export const ServiceSection = styled.div`
-  height: 100%;
-  border: 1px solid #fff;
-  flex-grow: 1;
-  background: #fff;
-  padding-left: 30px;
+  width: 15%;
+
+  padding: 0 20px 0 30px;
   p {
     padding: 10px 0;
   }
 `;
 export const NewsSection = styled.div`
-  flex-grow: 3.5;
-  height: 100%;
-  border: 1px solid #fff;
-  max-width: 600px;
-  padding: 0 50px 0 0;
+  width: 50%;
+  background: green;
+  padding: 0 20px;
   p {
     align-self: center;
     text-align: justify;
-    margin-right: 50px;
   }
 `;
 
 export const VideoSection = styled.div`
-  flex-grow: 2;
-  height: 100%;
+  width: 35%;
+  padding: 0 20px;
 
-  iframe {
-    width: 100%;
-    height: 100%;
-  }
+  background: blue;
 `;
 
 export const Title = styled.h2`
   font-family: sans;
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
 `;
