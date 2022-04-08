@@ -65,6 +65,18 @@ export const GridSection = styled.div`
   @media screen and (min-width: 1700px) {
     height: 25vh;
   }
+  @media screen and (min-width: 2560px) {
+    height: 30vh;
+    iframe{
+      width: 100% !important;
+      height: 70% !important;
+    }
+    input{
+      margin-left:500px
+    }
+  }
+
+  
 `;
 
 export const ServiceSection = styled.div`

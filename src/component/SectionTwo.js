@@ -1,7 +1,7 @@
 import React from "react";
 import Vid from "../video/vid.mp4";
 import "video-react/dist/video-react.css";
-
+import ReactPlayer from "react-player";
 import { Player } from "video-react";
 import {
   GridSection,
@@ -37,8 +37,17 @@ const SectionTwo = () => {
       </NewsSection>
       <VideoSection>
         <Title>Post Video</Title>
+        <ReactPlayer
+        className="videPlayer"
+        
+         
+        
+        
+        url="https://www.youtube.com/watch?v=I-kach9rCKA"
+        
+        />
 
-        <source src={Vid} />
+        
       </VideoSection>
     </GridSection>
   );

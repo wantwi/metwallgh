@@ -33,6 +33,15 @@ span {
 .slider-image {
   height: 500px;
 }
+
+
+iframe{
+  width: 100% !important;
+  height: 70% !important;
+}
+
+
+
 @media screen and (min-width: 1700px) {
   body {
     height: 100vh !important;
@@ -44,4 +53,45 @@ span {
   .slider-image {
     height: 50vh;
   }
+
+  iframe{
+    width: 100% !important;
+    height: 70% !important;
+  }
 }
+
+
+@media screen and (min-width: 1792px) {
+  body {
+    height: 100vh !important;
+
+    width: 80% !important;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+  }
+  .slider-image {
+    height: 50vh;
+  }
+  iframe{
+    width: 75% !important;
+    height: 55% !important;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  body {
+    height: 100vh !important;
+
+    width: 80% !important;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+  }
+  .slider-image {
+    height: 50vh;
+  }
+  iframe{
+    width: 100% !important;
+    height: 55% !important;
+  }
+}
+
